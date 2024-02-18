@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1708218798,
+        "narHash": "sha256-zynrTucNzLh/v7huevMrL9g1VxujdBfArEFzwWRJ8Kg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "a1ff35c63891ec9e4df75189427a5d81b5882bb9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "starfive-tools-src": "starfive-tools-src",
+        "uboot-src": "uboot-src"
+      }
+    },
+    "starfive-tools-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1695803916,
+        "narHash": "sha256-up58PtvnZTi6rGZcP2VwZrZBYajrZf4MzILixqaNKbE=",
+        "owner": "starfive-tech",
+        "repo": "Tools",
+        "rev": "0747c0510e090f69bf7d2884f44903b77b3db5c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "starfive-tech",
+        "repo": "Tools",
+        "type": "github"
+      }
+    },
+    "uboot-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1708010784,
+        "narHash": "sha256-CygjVjTY36UB3HVncAaNdKxoFXEbsTjj7FF5yAAEMUg=",
+        "owner": "u-boot",
+        "repo": "u-boot",
+        "rev": "9e00b6993f724da9699ef12573307afea8c19284",
+        "type": "github"
+      },
+      "original": {
+        "owner": "u-boot",
+        "repo": "u-boot",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
